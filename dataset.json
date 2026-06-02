@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Parse an AWS CloudWatch Logs event and extract the timestamp, log level, and message fields",
+    "format": "python",
+    "solution_criteria": "Function should correctly parse JSON log events and return a dictionary with 'timestamp', 'level', and 'message' keys. Should handle missing fields gracefully."
+  },
+  {
+    "task": "Create a JSON IAM policy document that allows EC2 DescribeInstances and StartInstances actions on all resources",
+    "format": "json",
+    "solution_criteria": "Valid JSON with correct structure including Version, Statement array with Effect, Action, and Resource fields. Actions should be limited to ec2:DescribeInstances and ec2:StartInstances."
+  },
+  {
+    "task": "Extract AWS S3 bucket names from S3 ARNs using a regular expression",
+    "format": "regex",
+    "solution_criteria": "Regex should match S3 ARNs in format 'arn:aws:s3:::bucket-name' and 'arn:aws:s3:::bucket-name/key' and capture only the bucket name. Should work with bucket names containing hyphens and numbers."
+  }
+]
