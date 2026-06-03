@@ -1,17 +1,49 @@
 [
   {
-    "task": "Parse an AWS CloudWatch Logs event and extract the timestamp, log level, and message fields",
-    "format": "python",
-    "solution_criteria": "Function should correctly parse JSON log events and return a dictionary with 'timestamp', 'level', and 'message' keys. Should handle missing fields gracefully."
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training - high-endurance athlete requiring 3,500+ daily calories with carbohydrate loading and strategic hydration timing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3,500+ calories with emphasis on carbohydrates (55-65% of total intake)",
+      "Includes 4-6 eating occasions spaced throughout the day with hydration timing noted",
+      "Format is compact and concise (single day plan presented clearly)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3,500+ daily calories with emphasis on carbohydrate loading and hydration timing throughout the day"
   },
   {
-    "task": "Create a JSON IAM policy document that allows EC2 DescribeInstances and StartInstances actions on all resources",
-    "format": "json",
-    "solution_criteria": "Valid JSON with correct structure including Version, Statement array with Effect, Action, and Resource fields. Actions should be limited to ec2:DescribeInstances and ec2:StartInstances."
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "85 kg",
+      "goal": "Strength and muscle gain for weightlifting competition",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains 4-5 meals distributed throughout the day",
+      "Total daily protein intake is 136-187g (1.6-2.2g per kg body weight)",
+      "Includes strategic pre-workout and post-workout nutrition",
+      "Plan is compact and concise (suitable for 1 day reference)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) requiring specific protein intake (1.6-2.2g per kg body weight) distributed across 4-5 meals with strategic pre and post-workout nutrition"
   },
   {
-    "task": "Extract AWS S3 bucket names from S3 ARNs using a regular expression",
-    "format": "regex",
-    "solution_criteria": "Regex should match S3 ARNs in format 'arn:aws:s3:::bucket-name' and 'arn:aws:s3:::bucket-name/key' and capture only the bucket name. Should work with bucket names containing hyphens and numbers."
+    "prompt_inputs": {
+      "height": "183 cm",
+      "weight": "78 kg",
+      "goal": "Maintain energy and performance through afternoon and evening tennis matches with quick recovery between sessions",
+      "restrictions": "Lactose intolerant, prefers plant-based protein sources"
+    },
+    "solution_criteria": [
+      "Includes breakfast, lunch, and at least two snacks/quick energy sources timed for matches",
+      "Incorporates recovery meals after afternoon and evening training sessions",
+      "Respects lactose intolerance and plant-based protein preferences",
+      "Provides compact, easy-to-follow format suitable for 1-day reference"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (tennis player) with irregular training schedule, need for quick energy sources between matches, and recovery meals accounting for afternoon and evening training sessions"
   }
 ]

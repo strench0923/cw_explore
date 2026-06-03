@@ -1,0 +1,64 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Athlete\n\n**Athlete Profile:** 178 cm, 68 kg, High-Endurance Marathon Training\n\n* **Calorie Target:** Approximately 3,500 calories\n* **Macronutrient Breakdown:** Protein (140g), Fat (95g), Carbs (490g)\n\n## Meal Plan:\n\n* **Breakfast (6:30 AM):** Oatmeal (100g dry weight) with banana (150g), honey (30g), and whole milk (240ml). Side of whole wheat toast (60g) with almond butter (20g).\n    * Protein: 18g, Fat: 12g, Carbs: 105g\n\n* **Pre-Workout Snack (9:00 AM):** Sports drink with carbohydrates (500ml) and energy bar (65g).\n    * Protein: 8g, Fat: 5g, Carbs: 65g\n\n* **Post-Workout Recovery Meal (11:30 AM):** Grilled chicken breast (150g), white rice (150g cooked), steamed carrots (100g), and olive oil (15ml).\n    * Protein: 42g, Fat: 12g, Carbs: 75g\n\n* **Lunch (2:00 PM):** Turkey sandwich on whole wheat bread (120g) with lean turkey (120g), lettuce (30g), tomato (50g), and low-fat mayo (20g). Side of pasta salad (200g cooked pasta with light dressing).\n    * Protein: 35g, Fat: 15g, Carbs: 95g\n\n* **Afternoon Snack (4:30 PM):** Greek yogurt (200g, low-fat) with granola (50g) and blueberries (100g).\n    * Protein: 18g, Fat: 8g, Carbs: 65g\n\n* **Dinner (7:00 PM):** Baked salmon (140g), sweet potato (200g), steamed broccoli (150g), and olive oil (10ml).\n    * Protein: 32g, Fat: 18g, Carbs: 70g\n\n* **Evening Snack (9:30 PM):** Bagel (70g) with honey (20g) and a banana (120g).\n    * Protein: 9g, Fat: 5g, Carbs: 75g\n\n---\n\n**Hydration Strategy:** Water throughout the day (minimum 3-4 liters), electrolyte drink during long training sessions, and carbohydrate-electrolyte beverage post-workout for optimal recovery.\n\nThis plan emphasizes high-quality carbohydrates for fuel and endurance, adequate protein for muscle recovery, and strategic meal timing around training sessions to maximize performance and adaptation.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training - high-endurance athlete requiring 3,500+ daily calories with carbohydrate loading and strategic hydration timing",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan totals 3,500+ calories with emphasis on carbohydrates (55-65% of total intake)",
+        "Includes 4-6 eating occasions spaced throughout the day with hydration timing noted",
+        "Format is compact and concise (single day plan presented clearly)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3,500+ daily calories with emphasis on carbohydrate loading and hydration timing throughout the day"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively meets all mandatory requirements with exact foods, portions, and timing clearly specified. The daily total of 3,500 calories is explicitly stated, macronutrient breakdown is provided (140g protein, 95g fat, 490g carbs), and the carbohydrate percentage (56%) falls within the required 55-65% range. The meal plan includes 7 eating occasions appropriately spaced throughout the day with hydration timing noted. The format is compact and clearly presented. While there are minor issues with arithmetic precision in individual meal calculations and hydration timing could be more specific, these do not violate the mandatory requirements. The solution directly addresses the athlete's marathon training needs with appropriate food choices and strategic meal timing."
+  },
+  {
+    "output": "# One-Day Meal Plan for Strength and Muscle Gain\n\nHere is a one-day meal plan for an athlete aiming to build strength and muscle for weightlifting competition:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (200g), Fat (100g), Carbs (380g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Scrambled eggs (3 whole eggs, 150g), oatmeal (100g dry weight) with honey (20g), and whole milk (240g).\n    * Protein: 35g, Fat: 18g, Carbs: 65g\n\n* **Mid-Morning Snack (10:00 AM):** Banana (150g) with peanut butter (40g).\n    * Protein: 10g, Fat: 16g, Carbs: 35g\n\n* **Lunch (1:00 PM):** Grilled lean beef (180g), brown rice (150g cooked weight), steamed broccoli (200g), and olive oil (15g).\n    * Protein: 50g, Fat: 18g, Carbs: 55g\n\n* **Pre-Workout Snack (4:00 PM):** White bread (60g) with almond butter (30g) and a glass of orange juice (240ml).\n    * Protein: 12g, Fat: 14g, Carbs: 60g\n\n* **Dinner (7:00 PM):** Baked chicken breast (200g), sweet potato (200g), asparagus (150g saut\u00e9ed in 10g olive oil).\n    * Protein: 55g, Fat: 16g, Carbs: 85g\n\n* **Evening Snack (9:30 PM):** Greek yogurt (200g, full-fat) with granola (40g) and berries (80g).\n    * Protein: 20g, Fat: 8g, Carbs: 50g\n\n* **Post-Workout Recovery (if training occurs):** Whey protein shake (40g powder) mixed with whole milk (240ml) and banana (100g).\n    * Protein: 43g, Fat: 10g, Carbs: 35g\n\nThis meal plan emphasizes high-quality protein sources, complex carbohydrates for sustained energy, and healthy fats to support hormone production and muscle recovery\u2014essential for successful strength training and competition preparation.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "85 kg",
+        "goal": "Strength and muscle gain for weightlifting competition",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan contains 4-5 meals distributed throughout the day",
+        "Total daily protein intake is 136-187g (1.6-2.2g per kg body weight)",
+        "Includes strategic pre-workout and post-workout nutrition",
+        "Plan is compact and concise (suitable for 1 day reference)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) requiring specific protein intake (1.6-2.2g per kg body weight) distributed across 4-5 meals with strategic pre and post-workout nutrition"
+    },
+    "score": 7,
+    "reasoning": "The solution meets all three mandatory requirements with clear daily caloric total, complete macronutrient breakdown, and detailed meals with portions and timing. However, it violates the secondary criterion of containing 4-5 meals by including 7 eating occasions. While the nutritional content is appropriate for the athlete's goals, the structure is less compact and concise than specified. The minor arithmetic discrepancy between stated and calculated macros is a secondary concern. The solution is functionally sound but structurally overshoots the meal frequency requirement."
+  },
+  {
+    "output": "# One-Day Meal Plan for Tennis Athlete\n\nHere is a one-day meal plan designed to maintain energy and support quick recovery between afternoon and evening tennis matches:\n\n* **Calorie Target:** Approximately 2,800 calories\n* **Macronutrient Breakdown:** Protein (140g), Fat (85g), Carbs (380g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with banana (120g), almond butter (25g), and sunflower seeds (15g). Oat milk (240ml).\n    * Protein: 18g, Fat: 16g, Carbs: 85g\n\n* **Mid-Morning Snack (10:00 AM):** Hummus (60g) with carrot sticks (100g) and whole grain crackers (40g).\n    * Protein: 8g, Fat: 8g, Carbs: 35g\n\n* **Lunch (1:00 PM):** Lentil and vegetable wrap with whole wheat tortilla (60g), cooked lentils (150g), roasted bell peppers (80g), spinach (50g), avocado (60g), and tahini dressing (15g).\n    * Protein: 22g, Fat: 16g, Carbs: 65g\n\n* **Pre-Match Snack (3:30 PM):** Energy bar with oats, dates, and nuts (65g) + dates (40g).\n    * Protein: 8g, Fat: 10g, Carbs: 55g\n\n* **Post-Match Recovery Snack (6:00 PM):** Peanut butter (30g) with rice cakes (30g) and apple (150g). Coconut water (250ml).\n    * Protein: 12g, Fat: 18g, Carbs: 60g\n\n* **Dinner (8:00 PM):** Baked tofu (200g) with quinoa (80g cooked), steamed broccoli (200g), and soy sauce with ginger (15g).\n    * Protein: 48g, Fat: 12g, Carbs: 65g\n\n* **Evening Snack (10:00 PM):** Almond butter (20g) with banana (100g).\n    * Protein: 6g, Fat: 10g, Carbs: 15g\n\nThis meal plan prioritizes plant-based proteins (lentils, tofu, nuts, seeds), is completely lactose-free, and provides sustained carbohydrates and quick-absorbing carbs around match times to maintain performance and support rapid recovery between sessions.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "183 cm",
+        "weight": "78 kg",
+        "goal": "Maintain energy and performance through afternoon and evening tennis matches with quick recovery between sessions",
+        "restrictions": "Lactose intolerant, prefers plant-based protein sources"
+      },
+      "solution_criteria": [
+        "Includes breakfast, lunch, and at least two snacks/quick energy sources timed for matches",
+        "Incorporates recovery meals after afternoon and evening training sessions",
+        "Respects lactose intolerance and plant-based protein preferences",
+        "Provides compact, easy-to-follow format suitable for 1-day reference"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a sport-specific athlete (tennis player) with irregular training schedule, need for quick energy sources between matches, and recovery meals accounting for afternoon and evening training sessions"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively satisfies all mandatory requirements with precise caloric totals, detailed macronutrient breakdowns, and exact portions with timings for all 7 meals. It demonstrates strong understanding of the athlete's specific context by strategically positioning recovery snacks around match times. All dietary restrictions are meticulously respected. The format is compact and reference-friendly. Secondary criteria are met effectively: breakfast, lunch, and multiple snacks are included; recovery meals are positioned post-match; and the plan is easy to follow. The only minor concerns are whether the caloric target is optimally calibrated and minor presentation details that don't impact functionality."
+  }
+]
