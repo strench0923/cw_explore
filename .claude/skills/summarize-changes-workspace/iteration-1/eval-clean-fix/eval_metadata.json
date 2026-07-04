@@ -1,0 +1,19 @@
+{
+  "eval_id": 1,
+  "eval_name": "clean-fix",
+  "prompt": "I just made a fix in this repo, can you tell me what changed?",
+  "assertions": [
+    {
+      "text": "Summary identifies the actual change: clamp() upper-bound bug fix (was returning low instead of high)",
+      "type": "content"
+    },
+    {
+      "text": "Response uses a short bullet-point summary (2-3 bullets), not a wall of prose",
+      "type": "format"
+    },
+    {
+      "text": "Does not invent or exaggerate risks that aren't present in this small, safe diff (no hallucinated security/error-handling concerns)",
+      "type": "content"
+    }
+  ]
+}

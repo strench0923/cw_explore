@@ -1,0 +1,23 @@
+{
+  "skill_name": "summarize-changes",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I just made a fix in this repo, can you tell me what changed?",
+      "expected_output": "2-3 bullet summary describing the clamp() upper-bound fix; risk section should be minimal/none since this is a safe, well-scoped fix.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What's the state of my repo right now?",
+      "expected_output": "Clearly states there are no uncommitted changes; does not fabricate a diff or risks.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need to write a commit message for this — can you check it over first?",
+      "expected_output": "Summary bullets plus explicit risk flags for: hardcoded API key/secret, unguarded destructive delete_all_users() call, and missing/untouched tests for new behavior.",
+      "files": []
+    }
+  ]
+}

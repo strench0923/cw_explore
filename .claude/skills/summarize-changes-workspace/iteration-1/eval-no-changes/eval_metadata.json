@@ -1,0 +1,19 @@
+{
+  "eval_id": 2,
+  "eval_name": "no-changes",
+  "prompt": "What's the state of my repo right now?",
+  "assertions": [
+    {
+      "text": "Explicitly states there are no uncommitted changes",
+      "type": "content"
+    },
+    {
+      "text": "Does not fabricate bullet points or risks for changes that don't exist",
+      "type": "content"
+    },
+    {
+      "text": "Response is short/direct rather than padded to match the usual bullet format",
+      "type": "format"
+    }
+  ]
+}

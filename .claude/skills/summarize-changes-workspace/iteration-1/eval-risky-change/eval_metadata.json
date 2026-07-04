@@ -1,0 +1,23 @@
+{
+  "eval_id": 3,
+  "eval_name": "risky-change",
+  "prompt": "I need to write a commit message for this — can you check it over first?",
+  "assertions": [
+    {
+      "text": "Flags the hardcoded API key/secret (API_KEY = \"sk_live_...\") as a risk",
+      "type": "content"
+    },
+    {
+      "text": "Flags the new delete_all_users() function as risky/destructive (no confirmation, broad blast radius)",
+      "type": "content"
+    },
+    {
+      "text": "Notes that test_app.py was not updated to cover the new behavior",
+      "type": "content"
+    },
+    {
+      "text": "Still provides the 2-3 bullet summary of what changed, not just a risk list",
+      "type": "format"
+    }
+  ]
+}
