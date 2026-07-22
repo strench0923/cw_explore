@@ -1,0 +1,20 @@
+[project]
+name = "cw-explore"
+version = "0.1.0"
+description = "Exploration workspace for experiments, notes, and notebooks"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=0.116.0",
+    "python-dotenv>=1.2.2",
+]
+
+[project.optional-dependencies]
+embeddings = [
+    "voyageai>=0.3.7",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
